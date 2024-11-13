@@ -1,0 +1,11 @@
+include "satNet"
+include "xml"
+include "html"
+include "runner"
+include "main"
+include "libs"
+include "pylibs"
+include "jarlibs"
+include "jlibs"
+include "Clibs"
+set()
