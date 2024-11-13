@@ -1,0 +1,11 @@
+runner.start()
+runner.local(rtx/libraries/runner)
+state.create()
+state.newstate()
+runner.run(newstate)
+newstate()
+state.reset()
+
+when state RESET:
+  if state not RUN:
+    end()
