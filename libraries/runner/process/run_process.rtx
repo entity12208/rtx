@@ -1,0 +1,9 @@
+include "/main/rtx/libraries/runner/runner_data.h"
+include "main"
+include "runtime"
+from "pct" include "runtime"
+
+cd in runner
+runtime.run.set(runner)
+reset()
+start()
