@@ -18,3 +18,8 @@ CXX = RTX
 runner = "https://"
 ## Set language to your best language. Options: Java, Javascript, Script, Text, Python, or Build.
 language = ""
+
+## Put your code here
+code{::
+
+}
