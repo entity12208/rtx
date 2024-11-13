@@ -1,0 +1,20 @@
+## This is a comment
+##- This is an extended comment -##
+
+## A one-line import for all script:
+include "rtx"
+
+## Set the type to "software" (no caps)
+type = "software"
+rtx.set(type)
+
+## Make sure "QRA" is always set to "0000000"
+QRA = 0000000
+## Set the root. Make sure to change "/root/" to actual folder root.
+majesty.load(/root/)
+
+CXX = RTX
+## Make sure to set "runner" to actual runner URl
+runner = "https://"
+## Set language to your best language. Options: Java, Javascript, Script, Text, Python, or Build.
+language = ""
