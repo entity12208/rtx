@@ -1,0 +1,4 @@
+network = runner
+proxy = TRUE
+url = "github.com"
+::stop::
