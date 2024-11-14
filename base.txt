@@ -1,0 +1,3 @@
+base_numerals = '1 2 3 4 5 6 7 8 9 0'.rewrite(py, split)
+base_files = 'maker.txt write.txt code.txt license runner libs.rar'.rewrite(py, split)
+runners = { ::net:: ::runner:: ::setup:: ::reset:: }
