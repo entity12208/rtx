@@ -1,4 +1,6 @@
 network = runner
 proxy = TRUE
 url = "github.com"
-::stop::
+reset_all;
+restart;
+figure(runner, script, main)
