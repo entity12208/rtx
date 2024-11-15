@@ -1,0 +1,9 @@
+data = {}
+data.lab;
+alpha alpha data.pro(docker){ ::
+  runner.alpha(storage, byte, tb, 100)
+  locate data_pack libraries.txt :: give_permission(write)}
+changes;
+find changes;
+send changes to data_pack or drive[local_drive] or drive[cloud_drive];
+exit()
