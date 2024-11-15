@@ -1,0 +1,20 @@
+## Runs on linux.
+os = "linux_os"
+cyberlink = TRUE
+ping = FALSE
+connect = [.net, .rtx, .txt, TRUE]
+hi_load = TRUE, 100
+lo_load = TRUE, 100
+time = clock.state()
+runner = "linux"
+eula = /rtx/EULA/ (EULA)
+cmd.run {
+  boot
+  .net boot
+  load .net
+  .net
+  build
+  cd build
+  extract
+  run
+  }
